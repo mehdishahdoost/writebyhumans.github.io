@@ -1,10 +1,10 @@
 ---
 title: "Battle of HTTP Clients in the Spring Framework: RestClient, RestTemplate, WebClient, and Feign"
-date: 2023-12-28T22:00:58+04:00
+date: 2025-12-28T22:00:58+04:00
 draft: false
 ---
 
-![WebClient Image](https://writebyhumans.com/images/webclient.webp)
+![WebClient Image](spring-framework-http-client.png)
 
 **Do you want to call an HTTP URL in the Spring Framework? If so, you need an HTTP client.**
 
