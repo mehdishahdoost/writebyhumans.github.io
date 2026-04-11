@@ -19,7 +19,7 @@ The Spring Framework provides several HTTP client options, depending on your nee
 > 
 > _Although_ `RestTemplate` _is still available, it is now in_ **_maintenance mode_**_, meaning no new features will be added, and Spring recommends migrating to_ `WebClient`.
 
-## 2. WebClient (Preferred)
+## 2. WebClient
 
 *   More modern and flexible than `RestTemplate`.
 *   Introduced in Spring WebFlux.
