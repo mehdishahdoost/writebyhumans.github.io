@@ -6,7 +6,7 @@
     <description>Recent content on WriteByHumans</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Dec 2023 22:00:58 +0400</lastBuildDate><atom:link href="https://writebyhumans.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Dec 2025 22:00:58 +0400</lastBuildDate><atom:link href="https://writebyhumans.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://writebyhumans.com/about/</link>
@@ -19,7 +19,7 @@
     <item>
       <title>Battle of HTTP Clients in the Spring Framework: RestClient, RestTemplate, WebClient, and Feign</title>
       <link>https://writebyhumans.com/posts/httpclients/</link>
-      <pubDate>Thu, 28 Dec 2023 22:00:58 +0400</pubDate>
+      <pubDate>Sun, 28 Dec 2025 22:00:58 +0400</pubDate>
       
       <guid>https://writebyhumans.com/posts/httpclients/</guid>
       <description>Do you want to call an HTTP URL in the Spring Framework? If so, you need an HTTP client.
