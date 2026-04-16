@@ -6,7 +6,7 @@ draft: false
 
 ![WebClient Image](spring-framework-http-client.png)
 
-**Do you want to call an HTTP URL in the Spring Framework? If so, you need an HTTP client.**
+**Do you want to call an HTTP URL in the Spring Framework? If so,  you need an HTTP client.**
 
 The Spring Framework provides several HTTP client options, depending on your needs you can pick them.
 
