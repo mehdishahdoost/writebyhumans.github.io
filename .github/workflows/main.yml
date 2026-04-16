@@ -21,9 +21,9 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.TOKEN }}
-          external_repository: writebyhumans/writebyhumans.github.io
+          external_repository: writebyhumans.github.io
           publish_dir: ./public
           #   keep_files: true
           user_name: mehdishahdoost
-          user_email: persianshadow@gmail.com
+          user_email: mhshdst@gmail.com
           publish_branch: main
