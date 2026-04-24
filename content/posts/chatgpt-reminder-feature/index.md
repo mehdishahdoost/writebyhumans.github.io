@@ -4,7 +4,7 @@ date: 2026-04-24T22:00:58+04:00
 draft: false
 ---
 
-![ChatGPT Reminder Feature](chatgpt-reminder-feature.png)
+![ChatGPT Reminder Feature](chatgpt-reminder.png)
 
 ## Introduction
 
