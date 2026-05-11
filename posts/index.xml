@@ -39,5 +39,17 @@ RestTemplate (Deprecated) A synchronous HTTP client that has been widely used bu
 No-as-a-Service is a lightweight API that, upon receiving a GET request, responds with a JSON object containing a randomly selected rejection reason.</description>
     </item>
     
+    <item>
+      <title>Ollama: Install it in Linux</title>
+      <link>https://writebyhumans.com/posts/install-ollama-in-linux/</link>
+      <pubDate>Sun, 28 Dec 2025 22:00:58 +0400</pubDate>
+      
+      <guid>https://writebyhumans.com/posts/install-ollama-in-linux/</guid>
+      <description>Ollama is a powerful tool that makes interacting with AI models simple and efficient. With local processing for privacy and quick deployment, it’s perfect for developers, educators, and curious learners.
+Update Your System 1- Before installing anything, update your package list:
+sudo apt update &amp;amp;&amp;amp; sudo apt upgrade -y 2- Install Ollama
+curl -fsSL https://ollama.com/install.sh | sh If your system doesn’t have an Nvidia or AMD GPU, Ollama will use the CPU to run LLM models.</description>
+    </item>
+    
   </channel>
 </rss>

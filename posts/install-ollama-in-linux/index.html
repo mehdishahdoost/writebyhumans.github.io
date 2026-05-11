@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="en-us">
+  <head>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-C6VP7HN2R1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-C6VP7HN2R1');
+  </script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  
+  <title>Ollama: Install it in Linux - WriteByHumans</title>
+
+  
+  
+  <meta name="description" content="Ollama is a powerful tool that makes interacting with AI models simple and efficient. With local processing for privacy and quick deployment, it’s perfect for developers, educators, and curious learners.
+Update Your System 1- Before installing anything, update your package list:
+sudo apt update &amp;&amp; sudo apt upgrade -y 2- Install Ollama
+curl -fsSL https://ollama.com/install.sh | sh If your system doesn’t have an Nvidia or AMD GPU, Ollama will use the CPU to run LLM models." />
+  <meta name="author" content="" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="https://writebyhumans.com/app.min.css" />
+
+  
+  <link rel="preload stylesheet" as="style" href="https://writebyhumans.com/an-old-hope.min.css" />
+  <script
+    defer
+    src="https://writebyhumans.com/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+  
+
+  
+  <link rel="preload" as="image" href="https://writebyhumans.com/theme.png" />
+
+  
+  <link rel="preload" as="image" href="https://writebyhumans.com/twitter.svg" />
+  
+  <link rel="preload" as="image" href="https://writebyhumans.com/github.svg" />
+  
+
+  
+  <link rel="icon" href="https://writebyhumans.com/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://writebyhumans.com/apple-touch-icon.png" />
+
+  
+  <meta name="generator" content="Hugo 0.110.0">
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:title" content="Ollama: Install it in Linux" />
+<meta property="og:description" content="Ollama is a powerful tool that makes interacting with AI models simple and efficient. With local processing for privacy and quick deployment, it’s perfect for developers, educators, and curious learners.
+Update Your System 1- Before installing anything, update your package list:
+sudo apt update &amp;&amp; sudo apt upgrade -y 2- Install Ollama
+curl -fsSL https://ollama.com/install.sh | sh If your system doesn’t have an Nvidia or AMD GPU, Ollama will use the CPU to run LLM models." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://writebyhumans.com/posts/install-ollama-in-linux/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2025-12-28T22:00:58+04:00" />
+<meta property="article:modified_time" content="2025-12-28T22:00:58+04:00" />
+
+  
+  <meta itemprop="name" content="Ollama: Install it in Linux">
+<meta itemprop="description" content="Ollama is a powerful tool that makes interacting with AI models simple and efficient. With local processing for privacy and quick deployment, it’s perfect for developers, educators, and curious learners.
+Update Your System 1- Before installing anything, update your package list:
+sudo apt update &amp;&amp; sudo apt upgrade -y 2- Install Ollama
+curl -fsSL https://ollama.com/install.sh | sh If your system doesn’t have an Nvidia or AMD GPU, Ollama will use the CPU to run LLM models."><meta itemprop="datePublished" content="2025-12-28T22:00:58+04:00" />
+<meta itemprop="dateModified" content="2025-12-28T22:00:58+04:00" />
+<meta itemprop="wordCount" content="147">
+<meta itemprop="keywords" content="" />
+  
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Ollama: Install it in Linux"/>
+<meta name="twitter:description" content="Ollama is a powerful tool that makes interacting with AI models simple and efficient. With local processing for privacy and quick deployment, it’s perfect for developers, educators, and curious learners.
+Update Your System 1- Before installing anything, update your package list:
+sudo apt update &amp;&amp; sudo apt upgrade -y 2- Install Ollama
+curl -fsSL https://ollama.com/install.sh | sh If your system doesn’t have an Nvidia or AMD GPU, Ollama will use the CPU to run LLM models."/>
+
+  
+  
+</head>
+
+
+  <body class="not-ready" data-menu="true">
+    <header class="header">
+  
+  <p class="logo">
+    <a class="site-name" href="https://writebyhumans.com">WriteByHumans</a><a class="btn-dark"></a>
+  </p>
+  
+
+  <script>
+    let bodyClx = document.body.classList;
+    let btnDark = document.querySelector('.btn-dark');
+    let sysDark = window.matchMedia('(prefers-color-scheme: dark)');
+    let darkVal = localStorage.getItem('dark');
+
+    let setDark = (isDark) => {
+      bodyClx[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark ? 'yes' : 'no');
+    };
+
+    setDark(darkVal ? darkVal === 'yes' : sysDark.matches);
+    requestAnimationFrame(() => bodyClx.remove('not-ready'));
+
+    btnDark.addEventListener('click', () => setDark(!bodyClx.contains('dark')));
+    sysDark.addEventListener('change', (event) => setDark(event.matches));
+  </script>
+
+  
+  
+  <nav class="menu">
+    
+    <a class="" href="/about/">About Me</a>
+    
+  </nav>
+  
+
+  
+  <nav class="social">
+    
+    <a
+      class="twitter"
+      style="--url: url(./twitter.svg)"
+      href="https://twitter.com/test"
+      target="_blank"
+    ></a>
+    
+    <a
+      class="github"
+      style="--url: url(./github.svg)"
+      href="https://github.com/"
+      target="_blank"
+    ></a>
+    
+  </nav>
+  
+</header>
+
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-title">
+    <p>
+      <time>Dec 28, 2025</time>
+      
+    </p>
+    <h1>Ollama: Install it in Linux</h1>
+  </header>
+  <section class="post-content"><p>Ollama is a powerful tool that makes interacting with AI models simple and efficient. With local processing for privacy and quick deployment, it’s perfect for developers, educators, and curious learners.</p>
+<h2 id="update-your-system">Update Your System</h2>
+<p>1- Before installing anything, update your package list:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt update <span style="color:#f92672">&amp;&amp;</span> sudo apt upgrade -y
+</span></span></code></pre></div><p>2- Install Ollama</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>curl -fsSL https://ollama.com/install.sh | sh
+</span></span></code></pre></div><p>If your system doesn’t have an Nvidia or AMD GPU, Ollama will use the CPU to run LLM models.</p>
+<p>3- Pull a model</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ollama pull <span style="color:#e6db74">&lt;&lt;model-nam</span>e&gt;&gt;
+</span></span></code></pre></div><p>For instance:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ollama pull llama2
+</span></span></code></pre></div><p>4- Run a model</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ollama run <span style="color:#e6db74">&lt;&lt;model-nam</span>e&gt;&gt;
+</span></span></code></pre></div><p>For instance:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ollama run llama2
+</span></span></code></pre></div><p>Open WebUI</p>
+<p>If you want to use a ChatGPT-like interface on your local machine and connect it to Ollama, consider using Open WebUI.</p>
+<p><img src="image.png" alt="WebUI Image"></p>
+<p>Install it via docker</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>docker run -d --network<span style="color:#f92672">=</span>host -v open-webui:/app/backend/data -e OLLAMA_BASE_URL<span style="color:#f92672">=</span>http://127.0.0.1:11434 --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+</span></span></code></pre></div><p>then open it in your browser: http://localhost:8080</p>
+</section>
+
+  
+  
+
+  
+  
+  
+  <nav class="post-nav">
+    
+    <a class="prev" href="https://writebyhumans.com/posts/no-as-a-service/"><span>←</span><span>No-as-a-Service: The API That Says “No” So You Don’t Have To</span></a>
+     
+  </nav>
+  
+
+  
+  
+</article>
+
+</main>
+
+    <footer class="footer">
+  <p>&copy; 2026 <a href="https://writebyhumans.com">WriteByHumans</a></p>
+  <p>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</p>
+  <p>
+    <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper 5.1</a>
+  </p>
+</footer>
+
+  </body>
+</html>
