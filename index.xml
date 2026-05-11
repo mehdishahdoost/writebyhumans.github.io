@@ -37,5 +37,16 @@ The Spring Framework provides several HTTP client options, depending on your nee
 RestTemplate (Deprecated) A synchronous HTTP client that has been widely used but is now in maintenance mode. Spring recommends using WebClient instead. Spring officially marked RestTemplate as deprecated in Spring Framework 6, which was released in November 2022.</description>
     </item>
     
+    <item>
+      <title>No-as-a-Service: The API That Says “No” So You Don’t Have To</title>
+      <link>https://writebyhumans.com/posts/no-as-a-service/</link>
+      <pubDate>Sun, 28 Dec 2025 22:00:58 +0400</pubDate>
+      
+      <guid>https://writebyhumans.com/posts/no-as-a-service/</guid>
+      <description>In the ever-expanding universe of APIs, where services range from the highly practical to the delightfully absurd, No-as-a-Service (NAAS) stands out as a whimsical tool designed to deliver randomized rejection reasons. Whether you’re seeking a humorous touch for your applications or a creative way to decline, NAAS offers a unique solution.
+🧠 What Is No-as-a-Service?
+No-as-a-Service is a lightweight API that, upon receiving a GET request, responds with a JSON object containing a randomly selected rejection reason.</description>
+    </item>
+    
   </channel>
 </rss>
