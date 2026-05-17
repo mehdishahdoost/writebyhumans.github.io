@@ -6,7 +6,7 @@
     <description>Recent content on WriteByHumans</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Apr 2026 22:00:58 +0400</lastBuildDate><atom:link href="https://writebyhumans.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 May 2026 18:00:58 +0400</lastBuildDate><atom:link href="https://writebyhumans.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://writebyhumans.com/about/</link>
@@ -14,6 +14,16 @@
       
       <guid>https://writebyhumans.com/about/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>ChatGPT Scheduled Tasks: Capabilities, Limitations, and Practical Use</title>
+      <link>https://writebyhumans.com/posts/chatgpt-pro-plus-vs-openai-platform/</link>
+      <pubDate>Sun, 17 May 2026 18:00:58 +0400</pubDate>
+      
+      <guid>https://writebyhumans.com/posts/chatgpt-pro-plus-vs-openai-platform/</guid>
+      <description>ChatGPT Plus, ChatGPT Pro, and the OpenAI API Platform Explained Artificial intelligence tools are becoming part of everyday work for developers, students, researchers, content creators, and businesses. One of the most common points of confusion is the difference between ChatGPT subscriptions and the OpenAI API platform.
+Many users assume that paying for ChatGPT automatically gives them access to the API. Others think the API is simply another version of ChatGPT.</description>
     </item>
     
     <item>
