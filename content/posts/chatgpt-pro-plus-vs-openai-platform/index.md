@@ -1,5 +1,5 @@
 ---
-title: "ChatGPT Scheduled Tasks: Capabilities, Limitations, and Practical Use"
+title: "ChatGPT Plus, ChatGPT Pro, and the OpenAI API Platform Explained"
 date: 2026-05-17T18:00:58+04:00
 draft: false
 ---
